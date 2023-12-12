@@ -1,0 +1,15 @@
+sonar:
+  projectKey: customer-app-code-coverage
+  projectName: customer-service
+  projectVersion: 1.0
+  host:
+    url: http://localhost:9000
+  login: squ_40f1761dfbfb1bc4ca654030464d4a187d9b41e0
+  sources: src
+  exclusions: src/test/java/**/controller/**/*
+  test: src/test
+  sourceEncoding: UTF-8
+  java:
+    binaries: target/classes
+    libraries: lib/**/*.jar
+
