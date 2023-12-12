@@ -1,0 +1,79 @@
+2023-12-12T13:22:57.338+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] c.accnt.poc.AccountServiceApplication    : Starting AccountServiceApplication using Java 17.0.8 with PID 1404 (C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V4\account-service\target\classes started by Optimum in C:\Users\Optimum.DESKTOP-5E11VK4\Ravi\Workspace\POC-V4\account-service)
+2023-12-12T13:22:57.352+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] c.accnt.poc.AccountServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-12-12T13:22:57.459+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-12T13:22:57.460+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-12T13:22:58.823+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-12T13:22:58.961+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2023-12-12T13:23:00.015+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2023-12-12T13:23:00.034+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-12T13:23:00.034+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-12T13:23:00.129+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/v1]     : Initializing Spring embedded WebApplicationContext
+2023-12-12T13:23:00.130+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2669 ms
+2023-12-12T13:23:00.850+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-12T13:23:00.912+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-12T13:23:01.377+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bedc6ec
+2023-12-12T13:23:01.380+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-12T13:23:03.028+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-12T13:23:03.501+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-12-12T13:23:03.853+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-12T13:23:04.018+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2023-12-12T13:23:04.136+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-12-12T13:23:04.199+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-12T13:23:04.261+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-12T13:23:04.502+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-12-12T13:23:04.557+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/v1'
+2023-12-12T13:23:04.572+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [restartedMain] c.accnt.poc.AccountServiceApplication    : Started AccountServiceApplication in 8.041 seconds (process running for 8.849)
+2023-12-12T13:23:26.291+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/v1]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12T13:23:26.291+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-12T13:23:26.291+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-12-12T13:23:26.291+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-12-12T13:23:26.291+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-12-12T13:23:26.291+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3dc58a79
+2023-12-12T13:23:26.291+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1138eaf4
+2023-12-12T13:23:26.291+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-12-12T13:23:26.291+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-12-12T13:23:26.307+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/swagger-ui/swagger-initializer.js", parameters={}
+2023-12-12T13:23:26.339+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-12-12T13:23:26.483+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-12-12T13:23:26.917+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v1/v3/api-docs/swagger-config", parameters={}
+2023-12-12T13:23:26.933+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2023-12-12T13:23:26.965+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2023-12-12T13:23:26.965+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v1/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8084/v1/swagger-ui/oau (truncated)...]
+2023-12-12T13:23:26.980+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-12-12T13:23:27.028+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v1/v3/api-docs", parameters={}
+2023-12-12T13:23:27.028+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2023-12-12T13:23:27.824+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 764 ms
+2023-12-12T13:23:27.871+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2023-12-12T13:23:27.887+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2023-12-12T13:23:27.887+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-12-12T13:36:57.129+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s482ms346µs600ns).
+2023-12-12T13:44:33.232+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/account/1", parameters={}
+2023-12-12T13:44:33.234+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.accnt.poc.controller.AccountController#getAccountDetails(int)
+2023-12-12T13:44:33.237+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-5] c.a.poc.controller.AccountController     : In AccountService RestController - to fetch Account Details based on Customer-Id
+2023-12-12T13:44:33.313+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-12-12T13:44:33.313+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2023-12-12T13:44:33.313+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-12-12T13:44:33.320+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/account/2", parameters={}
+2023-12-12T13:44:33.321+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.accnt.poc.controller.AccountController#getAccountDetails(int)
+2023-12-12T13:44:33.322+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-6] c.a.poc.controller.AccountController     : In AccountService RestController - to fetch Account Details based on Customer-Id
+2023-12-12T13:44:33.352+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-12-12T13:44:33.352+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.accnt.poc.entity.Account@16faf34b, com.accnt.poc.entity.Account@1118a4d6]]
+2023-12-12T13:44:33.371+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-12-12T13:44:33.387+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/account/3", parameters={}
+2023-12-12T13:44:33.388+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.accnt.poc.controller.AccountController#getAccountDetails(int)
+2023-12-12T13:44:33.389+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-7] c.a.poc.controller.AccountController     : In AccountService RestController - to fetch Account Details based on Customer-Id
+2023-12-12T13:44:33.394+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-12-12T13:44:33.395+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.accnt.poc.entity.Account@4968308e, com.accnt.poc.entity.Account@6dcac335]]
+2023-12-12T13:44:33.399+05:30 DEBUG 1404 --- [ACCOUNT-SERVICE] [http-nio-8084-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-12-12T14:32:12.512+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m14s913ms817µs600ns).
+2023-12-12T15:57:01.300+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m48s578ms679µs600ns).
+2023-12-12T16:09:05.439+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m34s25ms540µs800ns).
+2023-12-12T16:21:53.301+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s658ms628µs400ns).
+2023-12-12T16:41:25.639+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s264ms41µs600ns).
+2023-12-12T16:56:12.424+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m46s595ms715µs400ns).
+2023-12-12T17:05:24.790+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s259ms302µs400ns).
+2023-12-12T17:47:12.417+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m17s100ms970µs600ns).
+2023-12-12T18:13:55.482+05:30  WARN 1404 --- [ACCOUNT-SERVICE] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m42s853ms20µs).
+2023-12-12T19:20:55.401+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-12T19:20:55.417+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-12T19:20:55.433+05:30  INFO 1404 --- [ACCOUNT-SERVICE] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
